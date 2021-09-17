@@ -1,7 +1,7 @@
 void setup() {
   size(640, 525);  //feel free to change the size
   //noLoop(); //stops the draw() function from repeating
-  frameRate(15);
+  
   
 
   
@@ -9,13 +9,14 @@ void setup() {
 void draw() {
   
 
- background (160 + (int)(Math.random()*36), 90 + (int)(Math.random()*36), 10 + (int)(Math.random()*36));
+ background (135,100, 20);
  
     for (int y = 600; y>0; y-=100)
    {
     for(int x = 600; x>0; x-=80)
       {
       scale(x,y);
+      frameRate(15);
       }
    }  
 
