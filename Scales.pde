@@ -1,7 +1,7 @@
 void setup() {
   size(640, 525);  //feel free to change the size
   //noLoop(); //stops the draw() function from repeating
-  frameRate(1);
+  frameRate(15);
   
 
   
