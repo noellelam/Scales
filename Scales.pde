@@ -1,7 +1,7 @@
 void setup() {
   size(640, 525);  //feel free to change the size
   //noLoop(); //stops the draw() function from repeating
-  
+  frameRate(15);
   
 
   
@@ -16,7 +16,7 @@ void draw() {
     for(int x = 600; x>0; x-=80)
       {
       scale(x,y);
-      frameRate(15);
+     
       }
    }  
 
@@ -46,3 +46,10 @@ endShape();
 
 
 }
+
+
+
+
+
+
+
